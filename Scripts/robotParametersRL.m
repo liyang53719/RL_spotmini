@@ -35,10 +35,10 @@ upper_leg_length = 10;
 
 % Torso dimensions
 torso_y = 8;
-torso_x = 5;
-torso_z = 8;
+torso_x = 16;
+torso_z = 4;
 torso_offset_z = -2;
-torso_offset_x = -1;
+torso_offset_x = -8;
 mass = (0.01^3)*torso_y*torso_x*torso_z*density;
 g = 9.80665;      
 
